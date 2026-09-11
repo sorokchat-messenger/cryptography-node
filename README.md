@@ -1,1 +1,1 @@
-# @sorokchat-messenger/cryptography-client
+# @sorokchat-messenger/cryptography-node
