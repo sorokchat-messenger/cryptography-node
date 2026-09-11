@@ -1,0 +1,47 @@
+{
+  "name": "@sorokchat-messenger/cryptography-node",
+  "version": "1.0.0",
+  "description": "Cryptography node api for sorokchat security messanger",
+  "keywords": [
+    "node",
+    "cryptography",
+    "messenger",
+    "secure"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/sorokchat-messenger/cryptography-node#readme",
+  "bugs": {
+    "url": "https://github.com/sorokchat-messenger/cryptography-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sorokchat-messenger/cryptography-node.git"
+  },
+  "license": "MIT",
+  "author": "Sorokovsky Andrey <Sorokovsky0809@gmail.com>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@sorokchat-messenger/core": "^1.0.0",
+    "@sorokchat-messenger/cryptography-abstractions": "^1.0.2",
+    "@types/node": "^22.20.2",
+    "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "vitest": "^5.0.0"
+  }
+}
