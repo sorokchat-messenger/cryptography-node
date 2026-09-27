@@ -1,6 +1,6 @@
 {
   "name": "@sorokchat-messenger/cryptography-node",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Cryptography node api for sorokchat security messanger",
   "keywords": [
     "node",
