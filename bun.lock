@@ -10,7 +10,7 @@
       },
       "devDependencies": {
         "@sorokchat-messenger/core": "^1.0.0",
-        "@sorokchat-messenger/cryptography-abstractions": "^1.0.2",
+        "@sorokchat-messenger/cryptography-abstractions": "^1.0.3",
         "@types/node": "^22.20.2",
         "@vitest/coverage-v8": "5.0.0",
         "prettier": "^3.9.6",
@@ -74,7 +74,7 @@
 
     "@sorokchat-messenger/core": ["@sorokchat-messenger/core@1.0.0", "", { "peerDependencies": { "prettier": "^3.9.6" } }, "sha512-DxKnCJ4u4TEpU25DAiuXOdY3miI8WelEzxlvCKZJbhdhwXtdqfsnl6W8dRp3HQpiE3xDZqWImkB8TmiBN31/sQ=="],
 
-    "@sorokchat-messenger/cryptography-abstractions": ["@sorokchat-messenger/cryptography-abstractions@1.0.2", "", {}, "sha512-dDhUZUZbSQrt86sd0J8HRD9OvhvoU7dbMeqf4JRmviOyeFoXrmDdwiR8P7LO1ph6MmEDGgeOOEoTA9fJkebsYw=="],
+    "@sorokchat-messenger/cryptography-abstractions": ["@sorokchat-messenger/cryptography-abstractions@1.0.3", "", {}, "sha512-g0nTpKPd3kzraa6ftHvlWNQVXWr1ppxGuaMXL2EcdI3BCsURNZ89JI3jB+NWbD5f2tMn8WMZHg5EqXFcnOti5w=="],
 
     "@types/chai": ["@types/chai@5.2.3", "", { "dependencies": { "@types/deep-eql": "*", "assertion-error": "^2.0.1" } }, "sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA=="],
 
