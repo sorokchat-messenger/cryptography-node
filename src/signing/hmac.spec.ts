@@ -46,4 +46,10 @@ describe("HMAC tests", () => {
     const isValid = await signing.verify(plaintext, corruptedSigning, secret);
     expect(isValid).toBeFalsy();
   });
+
+  it("should fail verification if length of signature length and plaintext length not equal", async () => {
+    const corruptedSigning = expectedSigning.replace("81e2", "00");
+    const isValid = await signing.verify(plaintext, corruptedSigning, secret);
+    expect(isValid).toBeFalsy();
+  });
 });

@@ -41,9 +41,11 @@
     "@sorokchat-messenger/core": "^1.0.0",
     "@sorokchat-messenger/cryptography-abstractions": "^1.0.2",
     "@types/node": "^22.20.2",
+    "@vitest/coverage-v8": "5.0.0",
     "prettier": "^3.9.6"
   },
   "dependencies": {
+    "argon2": "^0.45.1",
     "vitest": "^5.0.0"
   }
 }
